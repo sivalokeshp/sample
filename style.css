@@ -1,0 +1,138 @@
+*style{
+    margin:0%;
+    padding: 0%;
+}
+.fnav{
+    display: flex;
+    justify-content: ceter;
+    justify-content: space-around;
+    padding: 6px;
+    color: white;
+    background-color: rgb(42,42,68);
+}
+.fnav .left{
+    display: left;
+    margin-top: 11px;
+
+}
+.left img{
+    width: 22%;
+}
+.left input{
+    margin-inline: 11px;
+    width: 420px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 2px;
+}
+.fnav .right{
+    display: flex;
+    margin-top: 11px;
+}
+.right p{
+    margin-inline:  22px; 
+    font-size: 22px;
+
+}
+.right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+}
+.right  i{
+    margin-inline:22px; 
+    font-size: 22px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 9px;
+    background-color:rbg(26,26,48);
+    color: rgb(161, 14, 14);
+}
+.sec-nav .s-left{
+    display: flex;
+}
+.sec-nav .s-right{
+    display: flex;
+}
+sec-nav p:hover{
+    color: rgb(102, 23, 23);
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.s-left p{
+margin-inline-start: 18px;
+}
+.s-right p{
+margin-inline-start: 18px;
+}
+.main img{
+    width: 100%;
+
+}
+.container h2{
+    text-align: center;
+    padding: 22px;
+
+}
+.container .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card img{
+    width: 17%;
+    margin-block: 16px;
+    border-radius: 5px;
+
+}
+.banner img{
+    width: 100%;
+    margin-top: 44px;
+}
+.premiere{
+background-color: rgb(8,8,19);
+color: white;
+padding: 33px;
+margin-top: 44px;
+}
+.container h2{
+margin-right:900px;
+}
+.container .card{
+margin-top: 11px;
+
+}
+.fotter{
+background-color: grey;
+padding: 33px;
+margin-top: 44px;
+
+}
+.fotter img{
+width: 22%;
+margin-left: 39%;
+border-top: 2px solid grey;
+}
+.fotter .icon{
+display: flex;
+justify-content: center;
+text-align: center;
+border-top: 2px solid grey;
+
+
+}
+.icon i{
+margin-inline:22px ;
+font-size: 25px;
+font-size: 36px;
+
+}
