@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: rgb(75, 0, 110);
+            color: white;
+            text-align: center;
+        }
+        /* Navbar Styling */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgba(75, 0, 110, 0.9);
+            padding: 15px 20px;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #E1BEE7;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .nav-links li {
+            margin: 0 15px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #D1C4E9;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #FF80AB;
+        }
+        .content {
+            padding-top: 80px;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+            width: 80%;
+            margin: 20px auto;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .image-text {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .video-container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+            background: rgb(75, 0, 110);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .startup-container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .startup-item {
+            border: 2px solid;
+            border-color: rgb(58, 17, 13);
+            background: rgb(75, 0, 110);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .startup-item:hover {
+            transform: scale(1.05);
+        }
+        .startup-item h3 {
+            font-size: 18px;
+            color: #F3E5F5;
+        }
+        .startup-item p {
+            font-size: 14px;
+            color: #E1BEE7;
+            margin-bottom: 15px;
+        }
+        .startup-item button {
+            width: 100%;
+            padding: 8px;
+            background-color: #D500F9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .startup-item button:hover {
+            background-color: #AA00FF;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Your Logo</div>
+        <ul class="nav-links">
+            <li><a href="#">Ongoing</a></li>
+            <li><a href="#">Completed</a></li>
+            <li><a href="#">Guide</a></li>
+            <li><a href="#">How to Win</a></li>
+            <li><a href="#">Mentor Network</a></li>
+            <li><a href="#">Apply for Fellowship</a></li>
+        </ul>
+    </nav>
+
+    <div class="image-container">
+        <img src="down.webp" alt="Centered Image">
+        <div class="image-text">Startupthon - Dream Believe Achieve</div>
+    </div>
+
+    <div class="content">
+        <div class="video-container">
+            <video controls>
+                <source src="your-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Startup Details -->
+    <div class="startup-container">
+        <div class="startup-item">
+            <h3>Startup 1</h3>
+            <p>Details about Startup 1</p>
+            <button>Learn More</button>
+        </div>
+        <div class="startup-item">
+            <h3>Startup 2</h3>
+            <p>Details about Startup 2</p>
+            <button>Learn More</button>
+        </div>
+        <div class="startup-item">
+            <h3>Startup 3</h3>
+            <p>Details about Startup 3</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+
+</body>
+</html>
